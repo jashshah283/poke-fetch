@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Poké-Fetch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="pokedex">
+    <div class="top-bar">
+      <div class="light ready" id="light"></div>
+      <div class="title">POKÉ-FETCH</div>
+    </div>
+
+    <div class="screen" id="screen">
+      <div class="flash" id="flash"></div>
+      <div class="status-text" id="statusText">Enter a name and throw a Pokéball</div>
+
+      <img id="pokemonImg" class="pokemon-img hidden" alt="" />
+
+      <div class="pokeball-wrap hidden" id="pokeballWrap">
+        <div class="pokeball" id="pokeball"></div>
+      </div>
+
+      <div class="id-tag hidden" id="idTag"></div>
+      <div class="caught-badge" id="caughtBadge"></div>
+    </div>
+
+    <div class="control-box">
+      <input id="nameInput" type="text" placeholder="pikachu" autocomplete="off" />
+      <button id="fetchBtn">Throw Ball</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
